@@ -1,4 +1,8 @@
 package com.solin.designpattern.design.builder;
 
-public interface Compress {
+import lombok.Data;
+
+@Data
+public class Compress {
+    private String name;
 }
